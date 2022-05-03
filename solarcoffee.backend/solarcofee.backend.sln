@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolarCofee.Services", "Sola
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolarCofee.Test", "SolarCofee.Test\SolarCofee.Test.csproj", "{8F913931-EA2F-42F7-9EA8-6C36740838D9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolarCofee.Web", "SolarCofee.Web\SolarCofee.Web.csproj", "{5B5E32F7-A938-4EC0-8A7C-4735AB426F8B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCofee.Web", "SolarCofee.Web\SolarCofee.Web.csproj", "{A67E689D-4FA3-4276-B046-7C39B08AC12D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{8F913931-EA2F-42F7-9EA8-6C36740838D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F913931-EA2F-42F7-9EA8-6C36740838D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F913931-EA2F-42F7-9EA8-6C36740838D9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5B5E32F7-A938-4EC0-8A7C-4735AB426F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5B5E32F7-A938-4EC0-8A7C-4735AB426F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5B5E32F7-A938-4EC0-8A7C-4735AB426F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5B5E32F7-A938-4EC0-8A7C-4735AB426F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67E689D-4FA3-4276-B046-7C39B08AC12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67E689D-4FA3-4276-B046-7C39B08AC12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67E689D-4FA3-4276-B046-7C39B08AC12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67E689D-4FA3-4276-B046-7C39B08AC12D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
