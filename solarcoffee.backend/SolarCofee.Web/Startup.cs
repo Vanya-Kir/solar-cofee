@@ -8,6 +8,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using SolarCofee.Data;
+using SolarCofee.Services.Customer;
+using SolarCofee.Services.Inventory;
+using SolarCofee.Services.Order;
 using SolarCofee.Services.Product;
 using System;
 using System.Collections.Generic;
@@ -34,6 +37,9 @@ namespace SolarCofee.Web
                 opts.UseNpgsql(Configuration.GetConnectionString("solar.dev"));
             });
             services.AddTransient<IProductService, ProductService>();
+            services.AddTransient<ICustomerService, CustomerService>();
+            services.AddTransient<IInventoryService, InventoryService>();
+            services.AddTransient<IOrderService, OrderService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
